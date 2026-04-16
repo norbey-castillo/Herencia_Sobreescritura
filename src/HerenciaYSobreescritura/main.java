@@ -3,13 +3,18 @@ package HerenciaYSobreescritura;
 public class main {
 
 	public static void main(String[] args) {
-		Persona p1 = new Persona("Oscar",20);
-		Docente d1 = new Docente("Walter",37,"programador");
-		Estudiante e1 = new Estudiante("Norbey",20,"0905-25-9175");
 		
-		p1.mostrar();
-		d1.mostrar();
-		e1.mostrar();
+		Cuenta cuenta = new Cuenta(2500);
+		CuentaAhorros ahorro = new CuentaAhorros(1000, 10);
+		
+		cuenta.depositar(350);
+		cuenta.retirar(920);
+		
+		ahorro.depositar(500);
+		ahorro.retirar(2500);
+		
+		System.out.println(ahorro.saldo+"\n");
+		System.out.println(cuenta.saldo+"\n");
 		
 	}
 

@@ -13,11 +13,15 @@ public class CuentaAhorros extends Cuenta {
 	public void retirar(double monto) {
 		if(saldo - monto >= 0) {
 			super.retirar(monto);
-		}else {
+		}else if (saldo - monto < 0 && saldo - monto >= -1000){
+			super.retirar(monto);
+			System.out.println("Esta sobregirando su tarjeta, su deuda es: " + saldo);
+		}else{
 			System.out.println("Saldo Insuficiente. ");
 		}
 	}
 
+	
 	public double getTasa() {
 		return tasa;
 	}
