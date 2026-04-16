@@ -3,12 +3,10 @@ package HerenciaYSobreescritura;
 public class main {
 
 	public static void main(String[] args) {
-		Figura f1 = new Figura();
-		Rectangulo r1 = new Rectangulo(5,6);
-		Circulo c1 = new Circulo(10);
+		Libro l1 = new Libro("EL nombre del viento", "Osvin");
+		LibroDigital ld1 = new LibroDigital("EL nombre del viento 2", "Osvin", 500);
 		
-		f1.calcularArea();
-		r1.calcularArea();
-		c1.calcularArea();
+		l1.mostrarInfo();
+		ld1.mostrarInfo();
 	}
 }
