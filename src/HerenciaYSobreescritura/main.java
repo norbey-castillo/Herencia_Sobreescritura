@@ -4,10 +4,12 @@ public class main {
 
 	public static void main(String[] args) {
 		
-		Transporte t1 = new Transporte(50);
-		Bus b1 = new Bus(30, "Jutiapa");
-		t1.Descripcion();
-		b1.Descripcion();
+		Empleado e1 = new Empleado("Norbey", 9500);
+		Gerente g1 = new Gerente("Oscar", 4500, 600);
+		
+		e1.CalcularSalario();
+		g1.CalcularSalario();
 	}
+		
 
 }
