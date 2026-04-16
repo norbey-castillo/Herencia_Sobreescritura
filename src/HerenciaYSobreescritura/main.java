@@ -1,12 +1,14 @@
 package HerenciaYSobreescritura;
 
 public class main {
+    public static void main(String[] args) {
 
-	public static void main(String[] args) {
-		Libro l1 = new Libro("EL nombre del viento", "Osvin");
-		LibroDigital ld1 = new LibroDigital("EL nombre del viento 2", "Osvin", 500);
-		
-		l1.mostrarInfo();
-		ld1.mostrarInfo();
-	}
+        Cliente cliente = new Cliente("Juan", "12345");
+
+        FacturaContado contado = new FacturaContado(1, cliente, 1000, 100);
+        FacturaCredito credito = new FacturaCredito(2, cliente, 1000, 200, 12);
+
+        System.out.println("Total contado: " + contado.calcularTotal());
+        System.out.println("Total crédito: " + credito.calcularTotal());
+    }
 }
