@@ -3,10 +3,10 @@ package HerenciaYSobreescritura;
 public class main {
 
 	public static void main(String[] args) {
-		Animal a1 = new Animal();
-		Perro p1 = new Perro();
+		Vehiculo v1 = new Vehiculo("Toyota",150);
+		Moto moto = new Moto("Yamaha", 250, 3);
 		
-		a1.hacerSonido();
-		p1.hacerSonido();
+		v1.mostrarInfo();
+		moto.mostrarInfo();
 	}
 }
