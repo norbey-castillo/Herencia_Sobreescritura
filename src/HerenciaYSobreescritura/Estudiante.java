@@ -9,6 +9,7 @@ public class Estudiante extends Persona{
 		this.carnet = carnet;
 	}
 
+	
 	@Override
 	public void mostrar() {
 		System.out.println("\ntu nombre es: " + getNombre());

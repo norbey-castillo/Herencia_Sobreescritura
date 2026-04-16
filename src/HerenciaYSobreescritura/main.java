@@ -10,6 +10,7 @@ public class main {
 		p1.mostrar();
 		d1.mostrar();
 		e1.mostrar();
+		
 	}
 
 }

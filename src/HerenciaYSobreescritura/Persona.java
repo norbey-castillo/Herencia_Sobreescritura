@@ -31,7 +31,6 @@ public class Persona {
 
 
 
-
 	public void mostrar() {
 		System.out.println("El nombre es: " + nombre);
 		System.out.println("La edad es: " + edad);

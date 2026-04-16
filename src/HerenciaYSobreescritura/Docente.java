@@ -9,6 +9,7 @@ public class Docente extends Persona{
 		this.especialidad = especialidad;
 	}
 
+	
 	@Override
 	public void mostrar() {
 		System.out.println("\nSu docente es: " + getNombre());
