@@ -20,6 +20,4 @@ public class Cuenta {
 		return "Cuenta [saldo=" + saldo + "]";
 	}
 	
-	
-	
 }

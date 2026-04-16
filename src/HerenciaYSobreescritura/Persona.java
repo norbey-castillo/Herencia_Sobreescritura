@@ -36,5 +36,8 @@ public class Persona {
 		System.out.println("El nombre es: " + nombre);
 		System.out.println("La edad es: " + edad);
 	}
+	/*Aca esta el metodo principal que me muestra el nombre y la edad de la clase persona
+	 * no se tiene problema a la hora de mostrae porque no conflictua con los demas metodos
+	 * sobreescritos. s*/
 
 }

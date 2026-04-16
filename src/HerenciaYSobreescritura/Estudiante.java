@@ -15,6 +15,9 @@ public class Estudiante extends Persona{
 		System.out.println("tu edad es: " + getEdad());
 		System.out.println("tu carnet es: "+ carnet);
 	}
+	/*Aca aplique la sobreescritura para en general poder modificar un poco
+	 * la forma en que se imprimen los datos del estudiante en la consola
+	 * entonces aca solo se muestran los datos del estudiante, no mas. */
 	
 
 }

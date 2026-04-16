@@ -30,7 +30,5 @@ public class CuentaAhorros extends Cuenta {
 	public String toString() {
 		return "CuentaAhorros [tasa=" + tasa + ", saldo=" + saldo + "]";
 	}
-	
-	
 
 }
