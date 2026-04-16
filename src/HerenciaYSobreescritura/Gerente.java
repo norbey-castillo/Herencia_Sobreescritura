@@ -16,6 +16,7 @@ public class Gerente extends Empleado {
 		BonoAdicional = bonoAdicional;
 	}
 	
+	@Override
 	public void CalcularSalario() {
 		System.out.println("El salario total mas bono adicional es: "+(getSalario()+this.BonoAdicional));
 	}
